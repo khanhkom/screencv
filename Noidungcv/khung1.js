@@ -28,7 +28,7 @@ export default class Khung1 extends Component {
         return (
             <View style={tieudeStyle1}>
                 <View style={{ marginLeft: (5 / 360) * width }}>
-                    < Image source={this.props.image} style={{ height: this.props.heights*height, width: this.props.widths*width }} />
+                    < Image source={this.props.image} style={{resizeMode: 'stretch', height: this.props.heights*height, width: this.props.widths*width }} />
                 </View>
                 <View style={{ marginLeft: this.props.marginLeftt*width }}>
                     <Text style={{ color: "#1C1C1C", fontWeight: '500' }}>{this.props.infor}</Text>
