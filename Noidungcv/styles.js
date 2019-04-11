@@ -11,7 +11,7 @@ export  default styles = StyleSheet.create({
     },
     iconBackStyle: {
         height: 0.04 * height,
-        width: 0.2 * width,
+        width: 0.25 * width,
         backgroundColor: '#DA251D',
         borderRadius: 7,
         justifyContent: "center",
@@ -19,14 +19,14 @@ export  default styles = StyleSheet.create({
         flexDirection: "row",
     },
     textHeadrStyle: {
-        width: 0.6 * width,
+        width: 0.5 * width,
         height: height,
         justifyContent: 'center',
         alignItems: "center"
     },
     iconNoteStyle: {
         height: 0.04 * height,
-        width: 0.2 * width,
+        width: 0.25 * width,
         backgroundColor: '#DA251D',
         borderRadius: 7,
         justifyContent: "center",
