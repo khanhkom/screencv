@@ -1,0 +1,10 @@
+{
+    "id1":{
+        "td":"Nhac nho",
+        "tg":"00:00,23:22,hanoi",
+        "dd":"43,nguyen chi thanh",
+        "tp":"thanhphan1,thanhphan2",
+        "nd":[{"id":"- noidung1"},{"id":"- noidung2"},{"id":"- noidung3"}],
+        "kl":[{"id":"- noidung1"},{"id":"- noidung2"}]
+    }
+}
