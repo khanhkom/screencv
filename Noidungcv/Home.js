@@ -60,7 +60,7 @@ export default class Home extends Component {
                                 <View style={{ justifyContent: "center", alignItems: "center", width: 0.92 * width, marginTop: (8 / 640) * height }}>
                                     <Text style={{ textDecorationLine: "underline", fontSize: 14, color: "#1C1C1C" }}>Nội dung</Text>
                                 </View>
-                                <View style={{ width: (322 / 360) * width, marginLeft: (9 / 360) * width, marginTop: (12 / 640) * height, height: (98 / 640) * height }}>
+                                <View style={{ width: (322 / 360) * width, marginLeft: (9 / 360) * width, marginTop: (8 / 640) * height, height: (98 / 640) * height }}>
                                     <View>
                                         {data.id1.nd.map(item => {
                                             return (<Text key={item.id} style={{ color: "#1C1C1C", fontFamily: 'Roboto', fontSize: 15 }}>{item.id}</Text>)
